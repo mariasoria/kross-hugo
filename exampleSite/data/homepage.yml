@@ -1,19 +1,22 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : ""
+#  title : "Hi! I am <br> María <br>"
 
 # about
 about:
   enable : true
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
-    enable : true
+    enable : false
+#    enable : true
     label : "know more"
     URL : "about"
 
 # skill
 skill:
-  enable : true
+  enable : false
+#  enable : true
   title : "Skills"
   item:
     - title : "Web Design"
@@ -34,7 +37,8 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
+#  enable : true
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -54,7 +58,8 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
+#  enable : true
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -75,7 +80,8 @@ education:
 
 # service
 service:
-  enable : true
+  enable : false
+#  enable : true
   title : "Services"
   item:
     - title : "UI Design"
@@ -95,7 +101,8 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
+#  enable : true
   title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
@@ -105,24 +112,67 @@ testimonial:
   enable : true
   title : "Testimonials"
   item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: "Ondrej Corny"
+      image: "images/testimonial/client-1.png"
+      designation: "IBM - iERP QTC Business Product Owner - Services+"
+      content: "Maria is the sunshine you'd like to have in the team.
+        Her energy, passion and hunger for growth is contagious. When I was raising to her the requirements,
+        she listened and focused to understand what needs / expectations she is supposed to fulfill while writing the code.
+        She consulted ad-hoc or in regular meetings to ensure she's on the right track. She was often providing recommendations
+        how to do things differently which was very valuable. Maria is very communicative and social person. She's got experience
+        also from theater and talking to people is not a big deal for her. I almost envy her how many friends she's got all around the world.
+        If you give her a job, take care of her and keep her engaged, she will for sure be a true asset for the company sharing all the smile and energy and knowledge with everybody."
+
+    - name: "David Rodriguez Garcia"
+      image: "images/testimonial/client-1.png"
+      designation: "IBM, Accounts Receivable Transformation & RPA Project Manager"
+      content: "I was very lucky to work with María in IBM and I can only say good
+        things about her. María is a “rara avis”, an uncommon kind of person: young and extremely well prepared. She is one of
+        the most professional and organized persons I have ever met. A natural leader that not only leads by example, but with
+        her charm and charisma she is able to raise a team to excellence. She is always willing to help with a smile on her face
+        any colleague in need professional support, sharing knowledge or giving advice. Her adaptability to new environments is
+        remarkable, a natural comfort zone avoider. I remember working with her in one particular workshop where she was able to
+        make a team of four people to deliver three automation solutions (discovery + development) in just one week. In summary,
+        any department/company would be proud to have María among its employees."
+
+    - name: "Jan Valentik"
+      image: "images/testimonial/client-1.png"
+      designation: "IBM, Software Developer for Mac"
+      content: "Maria is a very knowledgeable person with whom I had the pleasure to work with. Her ability to learn, adopt
+        and leverage best of new technology is amazing. Something to highlight is that besides the technical knowledge, the
+        passion for development and new technology is also that she is a trustworthy, loyal, and a hard-worker! It was a
+        privilege having worked alongside Maria."
+
+    - name: "Domenico de Felice"
+      image: "images/testimonial/client-1.png"
+      designation: "IBM, Advisory Technical Specialist"
+      content: "I had the pleasure to work with Maria during an agile workshop held in Madrid and what immediately
+        popped up about her is a T shaped strong technical preparation mixed to a marked social attitude and impressive
+        communication skills. She was leading a small team of Java developers in a context of automation delivery tasks
+        and the accomplishments I've witnessed during the workshop were efficient, punctual and impressive due to her
+        ability to listen at client needs, design java based solutions and finally deliver it in an agile fashion through
+        daily continuous integration cycles. Remarkable are the ability to set right good climate within agile teams and
+        the strength to digest and translate requirements into deliverables by always advising about technolody adoption
+        pros and cons. Maria is a true talent it really worths to work with and which I would warmly recommend as a key
+        actor within a technology agile team."
+
+    - name: "David Sanchez"
+      image: "images/testimonial/client-1.png"
+      designation: "Dell, Automation specialist"
+      content: "Maria is a person that combines excellent attitude and social skills with very good technical skills
+        (proficient in Java - and more recently working in Web applications with Node.JS/Angular). I am proud that I had
+        her in my team for more than 1,5 years. During her tenure with us she was very punctual, responsible and proactive.
+        Maria worked in projects as a Java Developer in different IBM lines of business serving a population of 1,500 employees
+        and always delivered. Colleagues, project managers and product owners were always happy to work with her. Due her great
+        performance, she was also assigned to work in projects in other IBM Centers (Madrid and Dublin) as a lead developer.
+        In these, she had to deliver -usually in short time- solutions to improve productivity. Maria's energy, positive
+        attitude and willingness to help others will be greatly missed in my team. As a team member or a leader,
+        she definitely earns my highest recommendation."
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
+#  enable : true
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -156,6 +206,7 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
+  enable : false
+#  enable : true
   title : "Blogs"
   # blog post comes from "content/blog" folder

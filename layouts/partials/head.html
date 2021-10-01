@@ -8,10 +8,10 @@
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
-  {{ with site.Params.baidu_site_verification }}
-	{{ "<!-- baidu site verification -->" | safeHTML }}
-  <meta name="baidu-site-verification" content="{{ . }}" />
-  {{ end }}
+<!--  {{ with site.Params.baidu_site_verification }}-->
+<!--	{{ "&lt;!&ndash; baidu site verification &ndash;&gt;" | safeHTML }}-->
+<!--  <meta name="baidu-site-verification" content="{{ . }}" />-->
+<!--  {{ end }}-->
 
   <style>
     :root{
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+<!--  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">-->
+<!--  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">-->
 
   {{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
@@ -44,17 +44,17 @@
 	</script>
 	{{ end }}
 
-  {{ with site.Params.baidu_analytics_id }}
-	{{ "<!--  Baidu analytics -->" | safeHTML }}
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ . }}";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-	{{ end }}
+<!--  {{ with site.Params.baidu_analytics_id }}-->
+<!--	{{ "&lt;!&ndash;  Baidu analytics &ndash;&gt;" | safeHTML }}-->
+<!--  <script>-->
+<!--    var _hmt = _hmt || [];-->
+<!--    (function() {-->
+<!--      var hm = document.createElement("script");-->
+<!--      hm.src = "https://hm.baidu.com/hm.js?{{ . }}";-->
+<!--      var s = document.getElementsByTagName("script")[0]; -->
+<!--      s.parentNode.insertBefore(hm, s);-->
+<!--    })();-->
+<!--  </script>-->
+<!--	{{ end }}-->
 
 </head>

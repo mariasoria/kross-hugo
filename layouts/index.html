@@ -1,7 +1,8 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden" id="parallax">
+  <!-- Maria config -->
+  <section class="hero-area img-maria overflow-hidden" id="parallax">
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
@@ -9,29 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="layer-bg w-100">
-      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l2">
-      <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l3">
-      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l4">
-      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l5">
-      <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l6">
-      <img src="{{`images/illustrations/leaf-cyan.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l7">
-      <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l8">
-      <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape">
+    <div>
     </div>
     <div class="layer" id="l9">
       <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">
@@ -44,6 +23,51 @@
     </ul>
     <!-- /social icon -->
   </section>
+  <!-- /hero area -->
+    <!-- end Maria config -->
+<!--  <section class="hero-area bg-primary overflow-hidden" id="parallax">-->
+<!--    <div class="container">-->
+<!--      <div class="row">-->
+<!--        <div class="col-lg-11 mx-auto">-->
+<!--          <h1 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="layer-bg w-100">-->
+<!--      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l2">-->
+<!--      <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l3">-->
+<!--      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l4">-->
+<!--      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l5">-->
+<!--      <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l6">-->
+<!--      <img src="{{`images/illustrations/leaf-cyan.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l7">-->
+<!--      <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l8">-->
+<!--      <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    <div class="layer" id="l9">-->
+<!--      <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">-->
+<!--    </div>-->
+<!--    &lt;!&ndash; social icon &ndash;&gt;-->
+<!--    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">-->
+<!--      {{ range site.Params.social }}-->
+<!--      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>-->
+<!--      {{ end }}-->
+<!--    </ul>-->
+<!--    &lt;!&ndash; /social icon &ndash;&gt;-->
+<!--  </section>-->
   <!-- /hero area -->
 
   {{ if site.Data.homepage.about.enable }}
@@ -224,9 +248,9 @@
           {{ range .item }}
           <!-- slider-item -->
           <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+<!--            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>-->
             <p class="text-white mb-4">{{.content | markdownify}}</p>
-            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
+<!--            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">-->
             <h4 class="text-white">{{.name }}</h4>
             <h6 class="text-light mb-4">{{ .designation }}</h6>
           </div>
