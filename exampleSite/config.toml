@@ -99,15 +99,18 @@ expire_days = 2
 
 # social site
 [[params.social]]
-icon = "ti-facebook"
+icon = "ti-email"
+# icon = "ti-facebook"
 URL = "mailto:maria.it3@gmail.com"
 
 [[params.social]]
-icon = "ti-instagram"
+icon = "ti-linkedin"
+# icon = "ti-instagram"
 URL = "https://www.linkedin.com/in/mariasoriadura/"
 
 [[params.social]]
-icon = "ti-dribbble"
+icon = "ti-github"
+# icon = "ti-dribbble"
 URL = "https://github.com/mariasoria"
 
 [[params.social]]
