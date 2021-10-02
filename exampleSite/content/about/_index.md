@@ -7,7 +7,7 @@ draft: false
 ---
 
 My name is Maria and I was born in Valencia. I decided to study a degree 
-in Engineering in Telematics inspired by my brother who was studying computering.
+in Telematics Engineering inspired by my brother who was studying computering.
 
 During my professional life I have worked with different programming languages such Java, 
 Perl, Javascript or Python and used different frameworks like Spring Boot, React and Django.
