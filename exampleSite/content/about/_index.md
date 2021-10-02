@@ -6,8 +6,10 @@ author_signature : "images/about/signature.png"
 draft: false
 ---
 
-I was born in Valencia. I decided to study engineering inspired by my brother who was studying computering.
+My name is Maria and I was born in Valencia. I decided to study a degree 
+in Engineering in Telematics inspired by my brother who was studying computering.
 
-I worked with different technologies such Java, Perl, Javascript, C++ and a bit of Python.
+During my professional life I have worked with different programming languages such Java, 
+Perl, Javascript or Python and used different frameworks like Spring Boot, React and Django.
 
-I've lately discovered Django's and Spring Boot's worlds and I'm very excited about them.
+Lately I have worked with docker and different kind of databases both relational and document-oriented. 
